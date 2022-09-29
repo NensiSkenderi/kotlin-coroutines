@@ -1,4 +1,4 @@
-package com.learning.runblocking
+package com.learning.coroutine.runblocking
 
 import kotlinx.coroutines.delay
 

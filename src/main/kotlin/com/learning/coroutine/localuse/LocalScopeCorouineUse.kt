@@ -1,4 +1,4 @@
-package com.learning.localuse
+package com.learning.coroutine.localuse
 
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.delay

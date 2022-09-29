@@ -1,4 +1,4 @@
-package com.learning.async
+package com.learning.coroutine.async
 
 import kotlinx.coroutines.*
 
