@@ -33,10 +33,8 @@ fun main() = runBlocking {
     }
 
 
-    launch(Dispatchers.Unconfined) { // inherits everything from the parent (the runBlocking co which runs on main)
-        println("UNCONFINED DISPATCHER thread name ${Thread.currentThread().name}") // executes on main
-        delay(1000)
-        println("UNCONFINED DISPATCHER after delay ${Thread.currentThread().name}") // will execute on some other thread
+    launch(coroutineContext) {
+        //its like confined dispatcher
     }
 
     println("Main thread")
